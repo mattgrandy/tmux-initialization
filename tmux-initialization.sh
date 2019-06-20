@@ -1,7 +1,7 @@
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 git clone https://github.com/tmux-plugins/tmux-logging ~/.tmux/plugins/tmux-logging/
 git clone https://github.com/jimeh/tmux-themepack.git ~/.tmux-themepack
-apt install zsh -Y
+apt install zsh -y
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 sed -i '/ZSH_THEME="robbyrussell"/c\ZSH_THEME="candy"' .zshrc
